@@ -8,10 +8,10 @@ import java.util.stream.Collectors;
 
 public class FlattenFile {
 
-    /**
+    /** THE RULES
      * match on first and second column
-     * also match on sixth column if third column is the same within first/second column groups
-     * concatenate values within fourth with fourth and fifth with fifth column vlaues.
+     * also match on sixth column if the third column is the same as the other third columns within first/second column groups
+     * concatenate values within fourth with fourth and fifth with fifth column values.
      */
     public static Random r = new Random();
 
